@@ -1,0 +1,8 @@
+autowqp.Rproj
+autowqp.Rxproj
+autowqp.sln
+testing.r
+.gitignore
+.gitattributes
+.vs
+^\.github$

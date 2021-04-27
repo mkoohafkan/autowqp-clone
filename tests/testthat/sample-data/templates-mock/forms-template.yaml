@@ -1,0 +1,12 @@
+Host: mailhost.somewhere.com
+
+Sender: autoWQP@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+Subject: "AutoWQP forms processing results {Sys.Date()}"
+
+Body: > 
+  The following forms were processed.
+  {results.table}

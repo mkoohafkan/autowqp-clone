@@ -1,0 +1,12 @@
+Host: mailhost.somewhere.com
+
+Sender: autoWQP@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+Subject: "AutoWQP QAQC check results {from.date} - {to.date}"
+
+Body: > 
+  The following stations and analytes have unchecked data.
+  {qaqc.table}

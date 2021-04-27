@@ -1,0 +1,15 @@
+Host: mailhost.somewhere.com
+
+Sender: autoWQP@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+Subject: "AutoWQP action check results {from.date} - {to.date}"
+
+Body: > 
+  The following stations and sondes have inconsistent action records.
+  <h3>Station table</h3>
+  {station.table}  
+  <h3>Sonde table</h3>
+  {sonde.table}
